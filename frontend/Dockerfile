@@ -5,3 +5,4 @@ COPY package-lock.json /app/package-lock.json
 COPY ./ /app/
 RUN npm i
 CMD ["npm","start"]
+
